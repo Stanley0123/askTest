@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap')
+
+$main : #418DE5
+
+body
+  font-family: 'Roboto', sans-serif
+
+.container
+  width: 740px
+  margin: 0 auto
+
+.heading
+  h1
+    font-size: 24px
+    line-height: 28px
+    margin: 0
+    font-weight: 400
+
+.btn
+  height: 20px
+  background: $main
+  font-size: 16px
+  line-height: 20px
+  color: #ffffff
+  padding: 0 15px
+
+.search
+  margin-top: 53px
+  position: relative
+  button
+    padding: 0
+    border: 0
+    background: transparent
+    position: absolute
+    top: 5px
+    right: 15px
+    &:hover
+      cursor: pointer
+  input
+    width: 100%
+    height: 33px
+    font-size: 16px
+    color: #595959
+    border: 1px solid #595959
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25)
+    border-radius: 45px
+    padding-left: 24px
+    box-sizing: border-box
+    &::-moz-placeholder
+      color: #595959
+      opacity: 1
+    &::-webkit-input-placeholder
+      color: #595959
+      opacity: 1
